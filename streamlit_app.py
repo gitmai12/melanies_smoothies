@@ -4,7 +4,7 @@ import streamlit as st
 from snowflake.snowpark.functions import col
 
 import requests  
-smoothiefroot_response = requests.get("[https://my.smoothiefroot.com/api/fruit/watermelon](https://my.smoothiefroot.com/api/fruit/watermelon)")  
+smoothiefroot_response = requests.get("[https://www.smoothiefroot.com/api/fruit/watermelon](https://www.smoothiefroot.com/api/fruit/watermelon)")  https://www.smoothiefroot.com/
 st.text(smoothiefroot_response.json())
 
 cnx = st.connection("snowflake")
