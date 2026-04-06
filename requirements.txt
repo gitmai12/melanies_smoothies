@@ -1,1 +1,3 @@
-
+# requiresment.txt
+snowflake-snowpart-python
+streamlit
